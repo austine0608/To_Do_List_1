@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="animate.css">
+   <style>
+    
+   </style>
+   <!-- <link rel="stylesheet" href="animate.css"> -->
+    <title>To Do List</title>
+  </head>
+  <body style="background-image:url('images/design.jpg');height:300px;
+	background-repeat:no-repeat;background-attachment:fixed;background-size:cover;"><br>
+          <center>
+            <h1 style="color:blanchedalmond"class="animate__animated animate__rotateIn animate__slow">My Office To Do List For Monday</h1><br>
+          </center>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 bg-warning text-white text-center">
+        <h2 class="animate__animated animate__rollIn animate__slow">To Do List</h2>
+        <h4 class="animate__animated animate__zoomInLeft animate__slow">Monday Morning</h4>
+      </div>
+    </div><br>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 text-white animate__animated animate__zoomInRight animate__slow"><br>
+        <tr>
+          <th>Management Meeting:-</th>
+        <button id="btn"><p id="low"><b>Click For Information</b></p></button>
+        </tr>
+      </div>
+      <div class="col-md-6 text-white animate__animated animate__zoomInLeft animate__slow"><br>
+        <tr>
+          <th>Launch Break:-</th>
+        <button id="btn1"><p id="lon"><b>Click For Information</b></p></button>
+        </tr>
+      </div>
+    </div><br>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 text-white animate__animated animate__zoomInLeft animate__slow"><br>
+        <tr>
+          <th>Next Day's Itenary:-</th>
+        <button id="btn2"><p id="go"><b>Click For Information</b></p></button>
+        </tr>
+      </div>
+      <div class="col-md-6 text-white animate__animated animate__zoomInRight animate__slow"><br>
+        <tr>
+          <th>Appointment:-</th>
+        <button id="btn3"><p id="come"><b>Click For Information</b></p></button>
+        </tr>
+      </div>
+      <div class="col-md-6 text-white animate__animated animate__zoomInRight animate__slow offset-6"><br>
+        <tr>
+          <th>Priority On The List:-</th>
+        <button id="btn5"><p id="done"><b>Priority</b></p></button>
+        </tr>
+      </div>
+    </div><br>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 bg-warning">
+        <marquee><section id="ayo">
+          <center>
+          <img src="images/12.jpg"hight="500"width="150">
+          <img src="images/13.jpg"hight="500"width="150">
+          <img src="images/14.jpg"hight="500"width="150">
+          <img src="images/15.jpg"hight="500"width="150">
+          <img src="images/16.jpg"hight="500"width="150">
+        </center>
+        </marquee></section>
+      </div>
+    </div>
+  </div><hr>
+  
+  <center>
+  <button id="btn4">Click</button>
+  </center>
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script> -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    
+  </body>
+  <script>
+    $(document).ready(function(){
+      $("#btn").click(function(){
+        $("#low").html("<h5>8:30Am-12:00Noon:- Management Meeting</h5>");
+      })
+    })
+
+    $(document).ready(function(){
+      $("#btn1").click(function(){
+        $("#lon").html("<h5>1:00Pm - 2:00Pm:-Break</5>");
+      })
+    })
+    
+    $(document).ready(function(){
+      $("#btn2").click(function(){
+        $("#go").html("<h5>4:30Pm-5:30Pm:- Pencile Down My Itenary For The Next Day.</5>");
+      })
+    })
+    
+    $(document).ready(function(){
+      $("#btn3").click(function(){
+        $("#come").html("<h5>3:30Pm-5Pm:-Call Clients To Book Appointment For The Week.</h5>");
+      })
+    })
+
+    $(document).ready(function(){
+      $("#btn4").click(function(){
+        $(".row").slideToggle(2000);
+      })
+    })
+
+    $(document).ready(function(){
+      $("#btn5").click(function(){
+        $("#done").html("<h5>8:30Am-12:00Noon:- Management Meeting</h5>");
+      })
+    })
+    
+  </script>
+
+  
+  
+
+</html>
+
+
+
